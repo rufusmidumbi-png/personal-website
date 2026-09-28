@@ -28,7 +28,7 @@ h2 {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
@@ -36,5 +36,4 @@ h2 {
     background-color: #e8eef5;
     padding: 15px;
     border-radius: 8px;
-    text-align: center;
 }
